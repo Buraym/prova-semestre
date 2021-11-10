@@ -19,13 +19,36 @@
     flex-direction: column;
 }
 
-.botao{
+.card-contato{
     display: flex;
+    width:70vw;
+    height:400px;
     outline: none;
     border: none;
+    border-radius: 30px;
     background-color: #00bfff;
     color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.botao{
+    display: flex;
+    width: 400px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #00bfff;
+    color:white;
     padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
 
     justify-content: center;
     align-items: center;
